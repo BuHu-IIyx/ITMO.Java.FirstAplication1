@@ -13,7 +13,6 @@ public class Lab2 {
         }
     }
     public static void ex2(){
-        enum statusNumber{divThree, divFive, divBoth};
         int countNum = 100;
         ex2DivForNumber(countNum, 3);
         ex2DivForNumber(countNum, 5);
