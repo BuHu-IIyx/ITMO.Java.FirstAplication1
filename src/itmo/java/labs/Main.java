@@ -14,6 +14,8 @@ public class Main {
 //        Lab2.ex1();
 //        Lab2.ex2();
 //        Lab2.ex3();
-        Lab2.ex4();
+//        Lab2.ex4();
+//        Lab2.ex5();
+        Lab2.ex6();
     }
 }

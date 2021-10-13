@@ -3,29 +3,40 @@ package itmo.java.labs;
 import java.util.Scanner;
 
 public class Lab1 {
+    //
+    //Exercise 1
+    //
     public static void ex1() {
         System.out.println("Я");
         System.out.println("хорошо");
         System.out.println("знаю");
         System.out.println("Java");
     }
-
+    //
+    //Exercise 2
+    //
     public static void ex2() {
         System.out.println((46 + 10) * (10 / 3));
         System.out.println((29) * (4) * (-15));
     }
-
+    //
+    //Exercise 3
+    //
     public static void ex3() {
         int number = 10500;
         int result = (number / 10) / 10;
         System.out.println(result);
     }
-
+    //
+    //Exercise 4
+    //
     public static void ex4() {
         double result2 = 3.6 * 4.1 * 5.9;
         System.out.println(result2);
     }
-
+    //
+    //Exercise 5
+    //
     public static void ex5() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите три числа:");
@@ -37,7 +48,9 @@ public class Lab1 {
             System.out.println(x);
         }
     }
-
+    //
+    //Exercise 6
+    //
     public static void ex6() {
         Scanner scanner = new Scanner(System.in);
         int b = scanner.nextInt();
