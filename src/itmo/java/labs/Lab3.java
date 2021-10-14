@@ -1,6 +1,7 @@
 package itmo.java.labs;
 
 import java.lang.reflect.Array;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Lab3 {
@@ -113,7 +114,16 @@ public class Lab3 {
     //Exercise 6
     //
     public static void ex6(){
+        System.out.println(Lab2.ex5ConvertToString(ex6RandomArray(5)));
 
+    }
+    public static int[] ex6RandomArray(int count){
+        int[] returnArr = new int[count];
+        Random random = new Random();
+        for (int i = 0; i <count; i++){
+            returnArr[i] = random.nextInt(100) - 50;
+        }
+        return returnArr;
     }
     //
     //Exercise 7

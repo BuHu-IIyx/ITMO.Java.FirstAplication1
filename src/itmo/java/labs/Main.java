@@ -22,7 +22,8 @@ public class Main {
 //            Lab3.ex2();
 //            Lab3.ex3();
 //            Lab3.ex4();
-            Lab3.ex5();
+//            Lab3.ex5();
+            Lab3.ex6();
 
 
     }
