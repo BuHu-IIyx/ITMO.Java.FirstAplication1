@@ -1,9 +1,8 @@
 package itmo.java.labs;
 
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
+
 
 public class Lab3 {
     //
@@ -126,13 +125,18 @@ public class Lab3 {
     }
 
     public static int[] ex6RandomArray(int count) {
+        return ex6RandomArray(count, 100);
+    }
+
+    public static int[] ex6RandomArray(int count, int bound) {
         int[] returnArr = new int[count];
         Random random = new Random();
         for (int i = 0; i < count; i++) {
-            returnArr[i] = random.nextInt(100) - 50;
+            returnArr[i] = random.nextInt(bound) - (bound / 2);
         }
         return returnArr;
     }
+
     //Прошу прощения, скопировал у Вас
     // т.к. сломал себе голову и немогу понять как реализовать эту сортировку самостоятельно..
     public static void mergeSort(int[] array, int leftIncl, int rightExcl) {
@@ -189,4 +193,52 @@ public class Lab3 {
     //
     //Exercise 7
     //
+    public static void ex7() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите количество элементов массива: ");
+        int num = scanner.nextInt();
+        int[] array1 = ex6RandomArray(num, 8);
+        System.out.println(Arrays.toString(array1));
+        System.out.print("Вывести ТОП: ");
+        int topNum = scanner.nextInt();
+        ArrayList<countNum> arrayList = ex7CountTop(array1);
+        Collections.sort(arrayList);
+        countNum[] arrayCount = arrayList.toArray(new countNum[arrayList.size()]);
+        int countA = 0;
+        int hiNum;
+        if (arrayCount.length >= topNum) {
+            hiNum = topNum;
+        } else {
+            hiNum = arrayCount.length;
+        }
+        for (int i = arrayCount.length - 1; i > arrayCount.length - 1 - hiNum; i--) {
+            System.out.println(arrayCount[i].toString());
+        }
+    }
+
+    public static ArrayList<countNum> ex7CountTop(int[] testArr) {
+        ArrayList<countNum> newCountList = new ArrayList<countNum>();
+        for (int i = 0; i < testArr.length - 1; i++) {
+            int countI = 1;
+            for (int j = i + 1; j < testArr.length; j++) {
+                if (testArr[i] == testArr[j]) {
+                    countI++;
+                }
+            }
+            boolean check = true;
+            for (countNum X :
+                    newCountList) {
+                if (X.num == testArr[i]) {
+                    check = false;
+                }
+            }
+            countNum newCountNum = new countNum(testArr[i], countI);
+            if (check) {
+                newCountList.add(newCountNum);
+            }
+        }
+        return newCountList;
+    }
+
 }
+
