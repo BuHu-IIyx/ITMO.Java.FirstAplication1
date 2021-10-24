@@ -4,12 +4,12 @@ public class Lab5 {
     //
     //Exercise
     //
-    public static void ex(){
+    public static void ex() {
         //Тест конструктора
-        Lab5Vector newVector = new Lab5Vector(1,2,3);
+        Lab5Vector newVector = new Lab5Vector(1, 2, 3);
         System.out.print("Первый вектор: ");
         newVector.printVector();
-        Lab5Vector newVector2 = new Lab5Vector(3,2,1);
+        Lab5Vector newVector2 = new Lab5Vector(3, 2, 1);
         System.out.print("Второй вектор: ");
         newVector2.printVector();
         //Тест расчета длинны
@@ -41,8 +41,8 @@ public class Lab5 {
         Lab5Vector[] newVectorArray = Lab5Vector.generateVector(countArr);
         int j = 1;
         System.out.println("Массив векторов:");
-        for (Lab5Vector i:
-             newVectorArray) {
+        for (Lab5Vector i :
+                newVectorArray) {
             System.out.print("Вектор " + j++ + ": ");
             i.printVector();
         }

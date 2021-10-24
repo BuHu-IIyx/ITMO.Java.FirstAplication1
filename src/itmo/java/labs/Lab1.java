@@ -12,6 +12,7 @@ public class Lab1 {
         System.out.println("знаю");
         System.out.println("Java");
     }
+
     //
     //Exercise 2
     //
@@ -19,6 +20,7 @@ public class Lab1 {
         System.out.println((46 + 10) * (10 / 3));
         System.out.println((29) * (4) * (-15));
     }
+
     //
     //Exercise 3
     //
@@ -27,6 +29,7 @@ public class Lab1 {
         int result = (number / 10) / 10;
         System.out.println(result);
     }
+
     //
     //Exercise 4
     //
@@ -34,6 +37,7 @@ public class Lab1 {
         double result2 = 3.6 * 4.1 * 5.9;
         System.out.println(result2);
     }
+
     //
     //Exercise 5
     //
@@ -48,6 +52,7 @@ public class Lab1 {
             System.out.println(x);
         }
     }
+
     //
     //Exercise 6
     //
