@@ -35,6 +35,8 @@ public class Main {
 //        Lab5.ex();
         //Lab6
 //        Lab6.ex1();
-        Lab6.ex2();
+//        Lab6.ex2();
+//        Lab6.ex3();
+        Lab6.ex4();
     }
 }
