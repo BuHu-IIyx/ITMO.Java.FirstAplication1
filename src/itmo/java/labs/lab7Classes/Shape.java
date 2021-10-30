@@ -1,6 +1,6 @@
 package itmo.java.labs.lab7Classes;
 
-public class Shape {
+public abstract class Shape {
     double volume;
 
     public double getVolume() {

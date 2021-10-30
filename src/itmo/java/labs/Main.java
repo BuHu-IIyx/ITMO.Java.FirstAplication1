@@ -40,6 +40,8 @@ public class Main {
 //        Lab6.ex4();
         //Lab7
 //        Lab7.ex1();
-        Lab7.ex2();
+//        Lab7.ex2();
+        //Lab8
+        Lab8.exCallCenter();
     }
 }

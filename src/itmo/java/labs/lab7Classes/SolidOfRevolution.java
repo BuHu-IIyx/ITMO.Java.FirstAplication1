@@ -1,6 +1,6 @@
 package itmo.java.labs.lab7Classes;
 
-public class SolidOfRevolution extends Shape {
+public abstract class SolidOfRevolution extends Shape {
     double radius;
 
     public double getRadius() {
