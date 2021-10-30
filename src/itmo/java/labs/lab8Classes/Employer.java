@@ -7,30 +7,31 @@ public abstract class Employer implements Comparable<Employer> {
 
     enum position {
         OPERATOR(1),
-        MANAGER (2),
-        DIRECTOR (3);
+        MANAGER(2),
+        DIRECTOR(3);
         int i;
+
         position(int i) {
             this.i = i;
         }
     }
 
-    public void endCall(){
+    public void endCall() {
         this.isEmployerFree = true;
     }
-    public boolean getCall(){
-        if (this.isEmployerFree){
+
+    public boolean getCall() {
+        if (this.isEmployerFree) {
             this.isEmployerFree = false;
             return true;
-        }
-        else{
+        } else {
             return false;
         }
     }
+
     @Override
     public int compareTo(Employer o) {
-        int result = Integer.compare(this.empPosition.i, o.empPosition.i);
-        return result;
+        return Integer.compare(this.empPosition.i, o.empPosition.i);
     }
 
 }

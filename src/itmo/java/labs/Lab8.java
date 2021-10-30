@@ -3,7 +3,7 @@ package itmo.java.labs;
 import itmo.java.labs.lab8Classes.CallCenter;
 
 public class Lab8 {
-    public static void exCallCenter(){
+    public static void exCallCenter() {
         CallCenter callCenter = new CallCenter();
         callCenter.addEmployer("Василий Васильевич", "Директор");
         callCenter.addEmployer("Александра Александровна", "Менеджер");
