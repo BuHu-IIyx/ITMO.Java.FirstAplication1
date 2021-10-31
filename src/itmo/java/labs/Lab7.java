@@ -6,6 +6,9 @@ import itmo.java.labs.lab7Classes.Cylinder;
 import itmo.java.labs.lab7Classes.Pyramid;
 
 public class Lab7 {
+    //
+    //Exercise 1
+    //
     public static void ex1() {
         Truck truck1 = new Truck(3200, "Kamaz", 'g', (float) 120.544, 8, 5000);
         System.out.println();
@@ -13,7 +16,9 @@ public class Lab7 {
         System.out.println();
         truck1.newWheels(12);
     }
-
+    //
+    //Exercise 2
+    //
     public static void ex2() {
         Box box = new Box(23);
         Ball ball = new Ball();

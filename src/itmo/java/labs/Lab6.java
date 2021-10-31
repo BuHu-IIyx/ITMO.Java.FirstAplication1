@@ -1,11 +1,16 @@
 package itmo.java.labs;
 
 public class Lab6 {
+    //
+    //Exercise 1
+    //
     public static void ex1() {
         Study study = new Study("Изучение Java - это просто!");
         System.out.println(study.printCourse());
     }
-
+    //
+    //Exercise 2
+    //
     public static void ex2() {
         Home home1 = new Home();
         Home home2 = new Home();
@@ -14,7 +19,9 @@ public class Lab6 {
         System.out.println(home1.getHome());
         System.out.println(home2.getHome());
     }
-
+    //
+    //Exercise 3
+    //
     public static void ex3() {
         //Проверка конструктора, который устанавливает только возраст и название
         Tree tree1 = new Tree(12, "Ольха");
@@ -30,7 +37,9 @@ public class Lab6 {
         System.out.println(tree2.getTree());
         System.out.println();
     }
-
+    //
+    //Exercise 4
+    //
     public static void ex4() {
         Plane plane = new Plane();
         Plane.Wing wing1 = plane.new Wing();
