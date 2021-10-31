@@ -42,6 +42,11 @@ public class Main {
 //        Lab7.ex1();
 //        Lab7.ex2();
         //Lab8
-        Lab8.exCallCenter();
+//        Lab8.exCallCenter();
+        //Lab9
+//        Lab9.ex1();
+//        Lab9.ex2();
+//        Lab9.ex3();
+        Lab9.ex4();
     }
 }
