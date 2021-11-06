@@ -48,6 +48,11 @@ public class Main {
 //        Lab9.ex2();
 //        Lab9.ex3();
 //        Lab9.ex4();
-        Lab9.ex5();
+//        Lab9.ex5();
+        //Lab10
+//        Lab10.ex1();
+//        Lab10.ex2();
+//        Lab10.ex3();
+        Lab10.ex4();
     }
 }
