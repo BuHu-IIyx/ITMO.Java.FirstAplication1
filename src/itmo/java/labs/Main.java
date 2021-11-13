@@ -53,6 +53,13 @@ public class Main {
 //        Lab10.ex1();
 //        Lab10.ex2();
 //        Lab10.ex3();
-        Lab10.ex4();
+//        Lab10.ex4();
+        //Lab11
+//        Lab11.ex1();
+//        Lab11.ex2();
+//        Lab11.ex3();
+//        Lab11.ex4();
+//        Lab11.ex5();
+        Lab11.ex6();
     }
 }
