@@ -1,5 +1,7 @@
 package itmo.java.labs;
 
+import java.io.IOException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -60,6 +62,17 @@ public class Main {
 //        Lab11.ex3();
 //        Lab11.ex4();
 //        Lab11.ex5();
-        Lab11.ex6();
+//        Lab11.ex6();
+        //Lab12
+//        Lab12.ex1();
+//        Lab12.ex2();
+//        Lab12.ex3();
+//        Lab12.ex4();
+        //Lab13
+        try {
+            Lab13.wikiRequest();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
