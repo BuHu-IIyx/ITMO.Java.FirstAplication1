@@ -46,6 +46,6 @@ public class Lab12 {
     }
 
     public static void ex4() {
-
+        //ппр
     }
 }

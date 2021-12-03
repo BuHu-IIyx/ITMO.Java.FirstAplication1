@@ -11,6 +11,7 @@ import java.net.URLEncoder;
 import java.util.Scanner;
 
 public class Lab13 {
+
     public static void wikiRequest() throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Спросите меня о чем-то:");
